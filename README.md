@@ -14,21 +14,6 @@ signal-processing theory.
 Built with Python 3.12+, NumPy and optional Matplotlib. Tests use pytest; code
 checks use Ruff. The numerical package runs independently of any interface.
 
-## Run
-
-```sh
-python -m venv .venv
-source .venv/bin/activate
-python -m pip install -e '.[dev,plot]'
-pytest -q
-python examples/conventional.py --output outputs
-```
-
-On Windows, activate with `.venv\Scripts\activate`.
-The example writes a beam-pattern PNG, CSV data and experiment parameters in JSON.
-For eight sensors, predicted white-noise SNR gain is 9.03 dB; the seeded example
-measures approximately 8.99 dB.
-
 ## Model
 
 Sensors lie along x. Angles are measured from broadside toward +x, in radians.
