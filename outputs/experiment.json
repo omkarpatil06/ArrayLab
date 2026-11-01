@@ -1,0 +1,15 @@
+{
+  "seed": 20261101,
+  "sensors": 8,
+  "snapshots": 65536,
+  "frequency_hz": 1000.0,
+  "sound_speed_m_s": 343.0,
+  "spacing_m": 0.1715,
+  "look_angle_deg": 20,
+  "noise_power": 1.0,
+  "measured_snr_gain_db": 8.993675138605004,
+  "predicted_snr_gain_db": 9.030899869919436,
+  "python": "3.12.14",
+  "numpy": "2.5.4",
+  "matplotlib": "3.10.8"
+}
